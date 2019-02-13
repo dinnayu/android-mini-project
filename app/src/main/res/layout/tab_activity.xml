@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dinna.miniproject.views.TabActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/paddingTop">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:text="Mini Project"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footerHeight"
+        android:layout_alignParentBottom="true"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:background="@color/colorPrimaryDark"
+        app:tabTextColor="@color/textColor"
+        app:tabSelectedTextColor="@color/colorAccent"
+        />
+
+</RelativeLayout>

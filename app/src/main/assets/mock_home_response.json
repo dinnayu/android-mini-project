@@ -1,0 +1,23 @@
+[
+  {"thumbnail": "image1",
+  "details":[
+    {"image": "image1"},
+    {"image": "image2"},
+    {"image": "image3"},
+    {"image": "image4"}
+  ]},
+  {"thumbnail": "image5",
+    "details":[
+      {"image": "image5"},
+      {"image": "image6"},
+      {"image": "image7"}
+    ]},
+  {"thumbnail": "image8",
+    "details":[
+      {"image": "image8"},
+      {"image": "image9"},
+      {"image": "image10"},
+      {"image": "image11"},
+      {"image": "image12"}
+    ]}
+]
